@@ -1,0 +1,30 @@
+sticky yes
+snapdist 8
+borderwidth 2
+
+fontname "Fixed:style=Regular"
+
+bind-key CM-r "urxvtc -e ./bin/recordmc.sh"
+
+ignore timedate
+
+autogroup 0 "timedate"
+autogroup 1 "htop"
+autogroup 1 "dmesg"
+autogroup 1 "alsamixer"
+autogroup 1 "irssi"
+autogroup 2 "chromium,Chromium"
+
+command chromium chromium
+command urxvtc urxvtc
+command xterm xterm
+command timedate "urxvtc +sb -g 29x1 -title timedate -e watch -t -n 1 date"
+command htop "urxvtc -e htop"
+command alsamixer "urxvtc -e alsamixer -g"
+command sensors "urxvtc -g 58x15 -e watch -n 1 sensors"
+command meminfo "urxvtc -g 32x7 -e watch -n 1 grep -e Dirty -e Write /proc/meminfo"
+command dmesg "urxvtc -e dmesg -Hw"
+command mc "bin/mc"
+command irssi "urxvtc +sb -g 100x50 -title irssi -e screen -d -R irssi irssi"
+command ranger "urxvtc -e src/ranger-1.8.1/ranger.py"
+
