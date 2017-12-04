@@ -1,0 +1,8 @@
+*font:		-*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
+*boldFont:	-*-gohufont-bold-*-*-*-14-*-*-*-*-*-*-*
+
+*saveLines:	10000
+
+xterm*ScrollBar: true
+xterm*multiScroll: on
+xterm*jumpScroll: on
