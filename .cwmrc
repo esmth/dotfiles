@@ -5,6 +5,7 @@ borderwidth 2
 fontname "Fixed:style=Regular"
 
 bind-key CM-r "urxvtc -e ./bin/recordmc.sh"
+bind-key CM-s "./bin/search"
 
 ignore timedate
 

@@ -1,8 +1,9 @@
-*font:		-*-gohufont-medium-*-*-*-14-*-*-*-*-*-*-*
-*boldFont:	-*-gohufont-bold-*-*-*-14-*-*-*-*-*-*-*
+URxvt.font:	xft: Inconsolata:style=Medium
+URxvt.boldFont:	xft: Inconsolata:style=Medium
 
-*saveLines:	10000
+URxvt.letterSpace: 0
 
-xterm*ScrollBar: true
-xterm*multiScroll: on
-xterm*jumpScroll: on
+URxvt.perl-lib:			/usr/lib/urxvt/perl
+URxvt.perl-ext-common:		default,matcher
+URxvt.url-launcher:		/usr/bin/chromium
+URxvt.matcher.button:		1
