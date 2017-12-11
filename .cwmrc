@@ -29,3 +29,7 @@ command mc "bin/mc"
 command irssi "urxvtc +sb -g 100x50 -title irssi -e screen -d -R irssi irssi"
 command ranger "urxvtc -e src/ranger-1.8.1/ranger.py"
 
+color activeborder "#998D7F"
+color inactiveborder "#2B2320"
+color groupborder "#2BDBC9"
+color ungroupborder "#E82802"

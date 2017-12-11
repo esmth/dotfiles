@@ -1,6 +1,9 @@
 URxvt.font:	xft: Inconsolata:style=Medium
 URxvt.boldFont:	xft: Inconsolata:style=Medium
 
+URxvt.background: #F5F5F5
+URxvt.foreground: #38383A
+
 URxvt.letterSpace: 0
 
 URxvt.perl-lib:			/usr/lib/urxvt/perl
