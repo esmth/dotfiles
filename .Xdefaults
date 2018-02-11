@@ -1,12 +1,14 @@
-URxvt.font:	xft: Inconsolata:style=Medium
-URxvt.boldFont:	xft: Inconsolata:style=Medium
+URxvt.font:	xft: Unifont:style=Medium
+URxvt.boldFont:	xft: Unifont:style=Bold
 
-URxvt.background: #F5F5F5
-URxvt.foreground: #38383A
+URxvt.foreground: #271511
+URxvt.background: #FBF8F3
 
-URxvt.letterSpace: 0
+!URxvt.letterSpace: -4
 
-URxvt.perl-lib:			/usr/lib/urxvt/perl
-URxvt.perl-ext-common:		default,matcher
-URxvt.url-launcher:		/usr/bin/chromium
-URxvt.matcher.button:		1
+URxvt*saveLines: 1000000
+
+URxvt.perl-lib:                 /usr/lib/urxvt/perl
+URxvt.perl-ext-common:          default,matcher
+URxvt.url-launcher:             /usr/bin/chromium
+URxvt.matcher.button:           1
