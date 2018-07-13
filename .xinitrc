@@ -1,6 +1,8 @@
 xrdb -merge .Xresources
+xset s 3600
 
-hsetroot -tile dotfiles/pic/openbsd-wp-pattern.png &
+#hsetroot -tile dotfiles/pic/openbsd-wp-pattern.png &
+hsetroot -tile pic/patterns/922804.png &
 
 urxvt -g 80x24+0+0 -e htop &
 urxvt -g 80x24+0+416 -e sudo dmesg -Hw &

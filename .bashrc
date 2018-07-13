@@ -2,7 +2,8 @@ alias ls="ls --color=auto"
 alias dir="ls -lh --color=auto"
 alias grep="grep --color=auto"
 
-#PS1="\w; "
+#PS1="\e[34m\$?;\e[92m\w;\e[39m "
+#PS1="\e[45m$PS1\e[49m"
 
 HISTCONTROL=ignoreboth
 HISTSIZE=100000
